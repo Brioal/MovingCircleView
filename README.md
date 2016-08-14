@@ -1,6 +1,14 @@
-# MovingCircleView
-##演示效果:
+# MovingCircleView\
+##TC App加速效果
+![](https://github.com/Brioal/MovingCircleView/blob/master/art/2.gif)
+##本组件实现效果:
 ![](https://github.com/Brioal/MovingCircleView/blob/master/art/1.gif)
+#写在前面:
+##如果觉得效果还行请顺手点个sta支持一下r,谢谢
+##欢迎加入我创建的QQ交流群,群号:375276053
+##另外感谢群友李通同学的建议,写这个自定义View也学到了一些东西
+##另外一个我的开源库:[多达288种动画效果定制的侧滑菜单库](https://github.com/Brioal/SwipeMenuDemo)欢迎查看与star
+##下面介绍本项目
 ##使用方法:
 ##1.xml布局中添加组件
 ###注:至少给宽或者高设置确定的值,不能同时设置为wrap_content,否则报错
@@ -63,9 +71,7 @@ mMovingDotView.setChangeListener(new OnAnimatorChangeListener() {
 ###4.默认的组件背景为白色,需要设置的话只要像给其他组件设置背景颜色那样设置即可,图片讲道理也是可以的,不过我没试过
 ###5.中心圆点的背景资源如果要设置的话尽量用shapedrawable做成圆角角度与宽高一样的效果,意思就是中心的组件其实是正方形的,只是设置的资源文件是圆形而已,这一点自定义的时候不是很好控制,如果需要改变中心颜色的同学得注意.
 
-##介绍就那么多,如果觉得有用的话请顺手点个star,谢谢
-##欢迎加入我创建的QQ交流群,群号:375276053
-##另外感谢群友李通同学的建议,写这个自定义View也学到了一些东西
+
 
 
 #在项目中添加此组件的方式:
