@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovingDotView">
+        <!--小点的总数-->
+        <attr name="md_dot_count" format="integer"/>
+        <!--中心大点的半径-->
+        <attr name="md_center_dot_radius" format="dimension"/>
+        <!--中心大点的资源文件-->
+        <attr name="md_center_dot_back" format="reference"/>
+        <!--小点的颜色-->
+        <attr name="md_dot_color" format="color"/>
+        <!--最大小点半径-->
+        <attr name="md_dot_max_radius" format="dimension"/>
+        <!--最小小点半径-->
+        <attr name="md_dot_min_radius" format="dimension"/>
+        <!--最大小点速度 , 速度 1~10-->
+        <attr name="md_dot_max_speed" format="integer"/> 
+        <!--最小小点速度-->
+        <attr name="md_dot_min_speed" format="integer"/>
+        <!--进度显示文字大小-->
+        <attr name="md_text_size" format="dimension"/>
+        <!--进度显示文字颜色-->
+        <attr name="md_text_color" format="color"/>
+        <!--加速按钮的文字颜色-->
+        <attr name="md_btn_text_color" format="color"/>
+        <attr name="md_animator_duration" format="integer"/>
+    </declare-styleable>
+</resources>
