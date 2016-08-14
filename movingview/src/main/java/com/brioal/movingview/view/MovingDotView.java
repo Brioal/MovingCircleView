@@ -59,6 +59,65 @@ public class MovingDotView extends ViewGroup {
         initObtainStyled(context, attrs);
     }
 
+    //设置小点总数
+    public void setDotsCount(int dotsCount) {
+        mDotsCount = dotsCount;
+    }
+
+    //设置中心圆点半径
+    public void setCenterDotRadius(int centerDotRadius) {
+        mCenterDotRadius = centerDotRadius;
+    }
+
+    //设置中心圆点背景
+    public void setCenterDotRes(Drawable centerDotRes) {
+        mCenterDotRes = centerDotRes;
+    }
+
+    //设置小圆点的颜色
+    public void setDotColor(int dotColor) {
+        mDotColor = dotColor;
+    }
+
+    //设置校园点的最大半径
+    public void setMaxDotRadius(int maxDotRadius) {
+        mMaxDotRadius = maxDotRadius;
+        Dot.sMaxDotRadius = maxDotRadius;
+    }
+
+    //设置小圆点的最小半径
+    public void setMinDotRadius(int minDotRadius) {
+        mMinDotRadius = minDotRadius;
+    }
+
+    //小圆点的最大速度
+    public void setMaxDotSpeed(int maxDotSpeed) {
+        mMaxDotSpeed = maxDotSpeed;
+    }
+
+    //小圆点的最大速度(1~10)
+    public void setMinDotSpeed(int minDotSpeed) {
+        mMinDotSpeed = minDotSpeed;
+    }
+
+    //显示进度的文字大小
+    public void setTextSize(int textSize) {
+        mTextSize = textSize;
+    }
+
+    //进度显示文字颜色
+    public void setTextColor(int textColor) {
+        mTextColor = textColor;
+    }
+    //按钮文字颜色
+    public void setBtnTextColor(int btnTextColor) {
+        mBtnTextColor = btnTextColor;
+    }
+    //动画持续的时间
+    public void setAnimatorDuration(long animatorDuration) {
+        mAnimatorDuration = animatorDuration;
+    }
+
     @Override
     protected void onLayout(boolean b, int i, int i1, int i2, int i3) {
         getChildAt(0).layout(getWidth() / 2 - mCenterDotRadius, getWidth() / 2 - mCenterDotRadius, getWidth() / 2 + mCenterDotRadius, getWidth() / 2 + mCenterDotRadius);
