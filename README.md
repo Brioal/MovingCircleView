@@ -7,7 +7,10 @@
 ##如果觉得效果还行请顺手点个sta支持一下r,谢谢
 ##欢迎加入我创建的QQ交流群,群号:375276053
 ##另外感谢群友李通同学的建议,写这个自定义View也学到了一些东西
-##另外一个我的开源库:[多达288种动画效果定制的侧滑菜单库](https://github.com/Brioal/SwipeMenuDemo)欢迎查看与star
+##另外的开源库:
+##[多达288种动画效果定制的侧滑菜单库](https://github.com/Brioal/SwipeMenuDemo)
+##[仿360底部动画菜单布局](https://github.com/Brioal/BottomTabLayout/)
+##欢迎查看与star
 ##下面介绍本项目
 ##使用方法:
 ##1.xml布局中添加组件
